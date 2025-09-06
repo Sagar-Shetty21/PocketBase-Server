@@ -1,10 +1,11 @@
+
 {
   "name": "pocketbase-server",
   "version": "1.0.0",
   "description": "PocketBase server wrapper for Node.js project",
   "scripts": {
-    "dev": "pocketbase.exe serve",
-    "start": "pocketbase.exe serve --http=0.0.0.0:8090"
+    "dev": "node server.js dev",
+    "start": "node server.js start"
   },
   "author": "Sagar Shetty",
   "license": "MIT"
